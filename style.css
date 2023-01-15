@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8EDE3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    margin: 0 34px;
+    padding: 8px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 240px;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.nav-item a {
+    color: rgb(250, 166, 11);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.inside-section {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 64px;
+}
+
+.top-section .content {
+    /* border: solid 2px green; */
+    font-size: 20px;
+    width: 30%;
+    color: rgb(44, 43, 43);
+}
+
+.card-section {
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 64px 0 64px 0;
+
+
+
+}
+
+.card-section img {
+    width: 100px
+}
+
+.cards h3 {
+    color: rgb(66, 63, 63);
+    font-weight: 500;
+}
+
+
+
+
+.group-section .content {
+
+    font-size: 15px;
+
+    width: 70%;
+    color: rgb(44, 43, 43);
+}
+
+
+.group-section img {
+    width: 360px;
+}
+
+.teacher-section .content {
+
+    font-size: 15px;
+
+    width: 70%;
+    color: rgb(44, 43, 43);
+}
+
+.teacher-section img {
+    width: 355px;
+}
+
+
+footer {
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+
+
+}
